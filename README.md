@@ -18,7 +18,7 @@ A website with which you can search name by student ID in East China Normal Univ
 * Available only when [www.freshman.ecnu.edu.cn](http://www.freshman.ecnu.edu.cn) can be connected.
 
 ## Methods
-If you open [http://www.freshman.ecnu.edu.cn/szyx/zzfw/sso_zhifu.jsp?userId=20180005&userName=123](http://www.freshman.ecnu.edu.cn/szyx/zzfw/sso_zhifu.jsp?userId=20180005&userName=123), it will redirect to a page wich shows the name that ID belongs to like Qian Xuhong (钱旭红). 
+If you open [http://www.freshman.ecnu.edu.cn/szyx/zzfw/sso_zhifu.jsp?userId=20180005&userName=123](http://www.freshman.ecnu.edu.cn/szyx/zzfw/sso_zhifu.jsp?userId=20180005&userName=123), it will redirect to a page which shows the name that ID belongs to like Qian Xuhong (钱旭红). 
 
 ## Packages used
 * [Translater.js](https://github.com/jaywcjlove/translater.js)

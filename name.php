@@ -1,5 +1,6 @@
 <?php
 header("Content-Type:text/html;charset=utf-8");
+header('Access-Control-Allow-Origin:*');  
 if(null!==$_POST["id"]||null!==$_GET["id"]){
 	if(null!==$_POST["id"]) $id=$_POST["id"]; else $id=$_GET["id"];
 	$url="http://www.freshman.ecnu.edu.cn/szyx/zzfw/sso_zhifu.jsp?userId=".$id."&userName=123"; 

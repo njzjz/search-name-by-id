@@ -1,5 +1,5 @@
 function search(id,did){ 
-	$.post("name.php",{id:id,ajax:1},function(data){   
+	$.post(phpurl,{id:id,ajax:1},function(data){   
 		if(data==''){//0 
 		}else{	
 			$(did).html(data);

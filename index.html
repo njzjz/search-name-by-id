@@ -2,31 +2,42 @@
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="https://f.zgchemicals.mobi/stylesheets/github-light.css" media="screen">
-		<link rel="stylesheet" type="text/css" href="https://f.zgchemicals.mobi/stylesheets/stylesheet.css" media="screen">
-		<link rel="stylesheet" type="text/css" href="https://f.zgchemicals.mobi/stylesheets/normalize.css" media="screen">
-		<script type="text/javascript" src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="stylesheets/navbar.css" media="screen">
+		<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 		<script type="text/javascript" src="name.js"></script>
-		<title>华东师范大学根据学号查询姓名</title>
+		<script type="text/javascript">
+		phpurl="https://chemapp.njzjz.win/ecnuid/name.php"
+		</script>
+		<title>Search Name According to student ID in East China Normal University<!--{cn}华东师范大学根据学号查询姓名--></title>
 	</head>
 	<body>
+	<div id="map" class="navbar"><ul><li><a href="https://njzjz.win/">Jinzhe Zeng's Blog<!--{cn}曾晋哲的博客--></a></li><li><a href="https://github.com/njzjz">GitHub</a></li><li><div><a href="javascript:if(tran.getLang()==='default'){tran.setLang('cn');}else {tran.setLang('default');}">中文<!--{cn}English--></a></div></li></div>
 	<section class="page-header">
-		<h1 class="project-name">华东师范大学</h1>
-		<h2 class="project-tagline">根据学号查询姓名</h2>
+		<h1 class="project-name">East China Normal University<!--{cn}华东师范大学--></h1>
+		<h2 class="project-tagline">Search Name According to student ID<!--{cn}根据学号查询姓名--></h2>
     </section>
 	<section class="main-content">		
-	<h2>请输入学号：</h2>
+	<h2>Please input the student ID:<!--{cn}请输入学号：--></h2>
 	<form method="post" id="form">
 		<table>
 			<tr>
-				<td><input type="text" id="input" placeholder="学号"></td>
-				<td><input type="submit" value="查询"></td>
+				<td><input type="text" id="input" placeholder="student ID" placeholder-cn="学号"></td>
+				<td><input type="submit" value="Search" value-cn="查询"></td>
 			</tr>
 			<tr colspan=2>
 				<td><div id="output"></div></td>
 			</tr>
 		</table>
 	</form>
+	<h2>Notice</h2>
+	<ul><li>You must comply with the "Network Security Law of the People's Republic of China" and other laws and regulations.<!--{cn}使用时须遵守《中华人民共和国网络安全法》和其它法律法规。--></li><li>Available only when www.freshman.ecnu.edu.cn can be connected.<!--{cn}仅当www.freshman.ecnu.edu.cn可被连接时可用。--></ul>
 	</section>
+	<script type="text/javascript" src="translater.min.js"></script>
+	<script type="text/javascript">
+	  var tran = new Translater();
+	</script>
 	</body>
 </html>

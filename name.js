@@ -1,4 +1,5 @@
-function search(id,did){ 
+function search(id,did){
+	$(did).html("查询中，请稍后……")
 	$.post(phpurl,{id:id,ajax:1},function(data){   
 		if(data==''){//0 
 		}else{	

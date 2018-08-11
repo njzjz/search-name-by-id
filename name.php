@@ -1,8 +1,10 @@
 <?php
 header("Content-Type:text/html;charset=utf-8");
-header('Access-Control-Allow-Origin:*');  
-if(null!==$_POST["id"]||null!==$_GET["id"]){
-	if(null!==$_POST["id"]) $id=$_POST["id"]; else $id=$_GET["id"];
+header('Access-Control-Allow-Origin:*');
+
+if(isset($_GET["id"]))$id=$_GET["id"];
+if(isset($_POST["id"]))$id=$_POST["id"];
+if(isset($id)){
 	$url="http://www.freshman.ecnu.edu.cn/szyx/zzfw/sso_zhifu.jsp?userId=".$id."&userName=123"; 
 	$contents = file_get_contents($url); 
 	$location=strpos($contents,"document.location.href='")+24;

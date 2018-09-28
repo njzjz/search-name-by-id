@@ -7,7 +7,7 @@ A website with which you can search name by student ID in East China Normal Univ
 
 **Author**: Jinzhe Zeng
 
-**Email**: njzjz@qq.com 10154601140@stu.ecnu.edu.cn
+**Email**: jzzeng@stu.ecnu.edu.cn
 
 [English version](https://njzjz.win/search-name-by-id-web)
 
